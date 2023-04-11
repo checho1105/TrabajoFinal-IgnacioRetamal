@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: grid;
+    background-color:  rgba(0, 128, 0, 0.651);
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar{
+    display: grid;
+    grid-template-areas: 
+    "logo ingresa"
+    "nab nab"
+    ;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0;
+    ul{
+        font-size: 25px;
+        padding: 0;
+    }
+    ul li{
+        list-style: none;
+    }
+    a{
+        grid-area: ingresa;
+        width: 70px;
+        text-align: end;
+        padding: 7px;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    a:hover{
+        color: grey;
+    }
+    img{
+        grid-area: logo;
+        width: 70px;
+    }
+    nav{
+        grid-area: nab;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    h1{
+        text-align: center;
+        margin: 20px;
+    }
+    .p-index{
+        display: none;
+    }
+    .button-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: grey;
+        }
+    }
+    .container-cm{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .icm{
+        width: 300px;
+    }
+    .sec-ubi{
+        width: 319px;
+    }
+    .pcm{
+        display: none;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgba(0, 128, 0, 0.514);
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    padding: 10px;
+}
+
+@media(min-width: 768px){
+    header{
+        height: 110px;
+        text-align: center;
+        gap: 70px;
+        .ing-index{
+            font-size: 20px;
+        }
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding-top: 15px;
+            padding-right: 15px;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        a{
+            padding: 12px;
+            margin-top: 5px;
+        }
+    }
+
+
+    main{
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .p-index{
+            display: flex;
+        }
+        .img-index{
+            text-align: center;
+            margin: 60px;
+        }
+        .button-main{
+            padding: 50px;
+            a{
+                padding: 25px;
+                font-size: 20px;
+            }
+        }
+        .card-ropa{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-left: 50px;
+        }
+        .container-cm{
+            display: flex;
+            flex-direction: row;
+            gap: 80px;
+            text-align: center;
+            }
+            .nuestra-historia{
+                width: 50%;
+            }
+        }
+        .sec-ubi iframe{
+            height: 875px;
+            width: 400px;
+        }
+        .pcm{
+            display: none;
+        }
+    footer{
+        font-size: 25px;
+        gap: 110px;
+        }
+}
+@media(min-width: 1024px){
+    header{
+        height: 110px;
+        gap: 80px;
+        .ing-index{
+            font-size: 30px;
+        }
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding-top: 18px;
+            padding-right: 15px;
+            font-size: 40px;
+        }
+    }
+    main{
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .p-index{
+            display: flex;
+        }
+        .img-index{
+            text-align: center;
+            margin: 60px;
+        }
+        .button-main{
+            padding: 50px;
+            a{
+                padding: 25px;
+                font-size: 20px;
+            }
+        }
+        .card-ropa{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-left: 50px;
+        }
+        .container-cm{
+            display: flex;
+            flex-direction: row;
+            gap: 80px;
+            text-align: center;
+            }
+            .nuestra-historia{
+                width: 50%;
+            }
+        }
+        .sec-ubi iframe{
+            height: 875px;
+            width: 400px;
+        }
+    }
+@media(min-width: 1440px){
+    header{
+        height: 110px;
+        gap: 80px;
+        .ing-index{
+            font-size: 30px;
+        }
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 90px;
+            .licm{
+                font-size: 30px;
+            }
+        }
+    }
+    main{
+        display: flex;
+        h1{
+            font-size: 50px;
+        }
+        .nuestra-historia{
+            width: 50;
+            text-align: start;
+            h3{
+                text-align: center;
+            }
+        }
+        .sec-ubi{
+            width: 550px;
+            padding-left: 0;
+            iframe{
+                width: 550px;
+                height: 550px;
+            }
+        }
+    }
+}

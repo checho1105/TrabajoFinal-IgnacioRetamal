@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  background-color: rgba(0, 128, 0, 0.651);
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: grid;
+  grid-template-areas: "logo ingresa" "nab nab";
+  text-align: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.navbar ul {
+  font-size: 25px;
+  padding: 0;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar a {
+  grid-area: ingresa;
+  width: 70px;
+  text-align: end;
+  padding: 7px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar a:hover {
+  color: grey;
+}
+.navbar img {
+  grid-area: logo;
+  width: 70px;
+}
+.navbar nav {
+  grid-area: nab;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+main h1 {
+  text-align: center;
+  margin: 20px;
+}
+main .p-index {
+  display: none;
+}
+main .button-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+main .button-main a {
+  color: black;
+  text-decoration: none;
+}
+main .button-main a:hover {
+  color: grey;
+}
+main .container-cm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main .icm {
+  width: 300px;
+}
+main .sec-ubi {
+  width: 319px;
+}
+main .pcm {
+  display: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: rgba(0, 128, 0, 0.514);
+  font-family: "Roboto", sans-serif;
+  height: 50px;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  header {
+    height: 110px;
+    text-align: center;
+    gap: 70px;
+  }
+  header .ing-index {
+    font-size: 20px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .navbar a {
+    padding: 12px;
+    margin-top: 5px;
+  }
+  main h1 {
+    font-size: 40px;
+  }
+  main p {
+    font-size: 20px;
+  }
+  main .p-index {
+    display: flex;
+  }
+  main .img-index {
+    text-align: center;
+    margin: 60px;
+  }
+  main .button-main {
+    padding: 50px;
+  }
+  main .button-main a {
+    padding: 25px;
+    font-size: 20px;
+  }
+  main .card-ropa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+  }
+  main .container-cm {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    text-align: center;
+  }
+  main .nuestra-historia {
+    width: 50%;
+  }
+  .sec-ubi iframe {
+    height: 875px;
+    width: 400px;
+  }
+  .pcm {
+    display: none;
+  }
+  footer {
+    font-size: 25px;
+    gap: 110px;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    height: 110px;
+    gap: 80px;
+  }
+  header .ing-index {
+    font-size: 30px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 18px;
+    padding-right: 15px;
+    font-size: 40px;
+  }
+  main h1 {
+    font-size: 40px;
+  }
+  main p {
+    font-size: 20px;
+  }
+  main .p-index {
+    display: flex;
+  }
+  main .img-index {
+    text-align: center;
+    margin: 60px;
+  }
+  main .button-main {
+    padding: 50px;
+  }
+  main .button-main a {
+    padding: 25px;
+    font-size: 20px;
+  }
+  main .card-ropa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50px;
+  }
+  main .container-cm {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    text-align: center;
+  }
+  main .nuestra-historia {
+    width: 50%;
+  }
+  .sec-ubi iframe {
+    height: 875px;
+    width: 400px;
+  }
+}
+@media (min-width: 1440px) {
+  header {
+    height: 110px;
+    gap: 80px;
+  }
+  header .ing-index {
+    font-size: 30px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+  }
+  .navbar ul .licm {
+    font-size: 30px;
+  }
+  main {
+    display: flex;
+  }
+  main h1 {
+    font-size: 50px;
+  }
+  main .nuestra-historia {
+    width: 50;
+    text-align: start;
+  }
+  main .nuestra-historia h3 {
+    text-align: center;
+  }
+  main .sec-ubi {
+    width: 550px;
+    padding-left: 0;
+  }
+  main .sec-ubi iframe {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
