@@ -245,24 +245,45 @@ footer{
         .ing-index{
             font-size: 30px;
         }
+        .ing-index{
+            height: 70px;
+            width: 150px;
+            text-align: center;
+        }
+        .img-t{
+            height: 70px;
+            width: 150px;
+            align-items: center;
+        }
     }
     .navbar{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         ul{
             display: flex;
             flex-direction: row;
-            gap: 90px;
+            gap: 100px;
             .licm{
                 font-size: 30px;
             }
         }
     }
     main{
+        background-color: lightgrey;
         display: flex;
         h1{
             font-size: 50px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+        .img-index{
+            display: none;
+        }
+        .p-i{
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         .nuestra-historia{
             width: 50;
@@ -279,5 +300,11 @@ footer{
                 height: 550px;
             }
         }
+        .boton-i{
+            border-radius: 300px;
+        }
+    }
+    footer{
+        justify-content: space-between;
     }
 }
