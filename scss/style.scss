@@ -306,5 +306,10 @@ footer{
     }
     footer{
         justify-content: space-between;
+        .sect1{
+            height: 30px;
+            width: 80px;
+            border-color: black;
+        }
     }
 }
