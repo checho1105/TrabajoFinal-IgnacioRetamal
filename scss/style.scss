@@ -53,6 +53,7 @@ main{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(211, 211, 211, 0.148);
     h1{
         text-align: center;
         margin: 20px;
@@ -99,6 +100,55 @@ footer{
     padding: 10px;
 }
 
+@media(min-width: 375px){
+    main{
+        .container-cm{
+            height: 800px;
+            .sec-ubi{
+                height: 320px;
+                width: 375px;
+                align-items: center;
+                iframe{
+                    height: 320px;
+                    width: 365px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 425px){
+    main{
+        .container-cm{
+            .sec-ubi{
+                height: 320px;
+                width: 425px;
+                align-items: center;
+                iframe{
+                    height: 320px;
+                    width: 415px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 620px){
+    main{
+        .container-cm{
+            .sec-ubi{
+                height: 400px;
+                width: 620px;
+                align-items: center;
+                iframe{
+                    height: 320px;
+                    width: 620px;
+                }
+            }
+        }
+    }
+}
+
 @media(min-width: 768px){
     header{
         height: 110px;
@@ -129,6 +179,7 @@ footer{
 
 
     main{
+        background-color: rgba(211, 211, 211, 0.148);
         h1{
             font-size: 40px;
         }
@@ -157,20 +208,24 @@ footer{
         .container-cm{
             display: flex;
             flex-direction: row;
-            gap: 80px;
             text-align: center;
-            }
             .nuestra-historia{
-                width: 50%;
+                width: 380px;
+            }
+            .sec-ubi{
+                height: 800px;
+                width: 380px;
+                iframe{
+                    height: 750px;
+                    width: 370px;
+                }
+            }
+            .pcm{
+                display: none;
             }
         }
-        .sec-ubi iframe{
-            height: 875px;
-            width: 400px;
         }
-        .pcm{
-            display: none;
-        }
+        
     footer{
         font-size: 25px;
         gap: 110px;
@@ -198,6 +253,7 @@ footer{
         }
     }
     main{
+        background-color: rgba(211, 211, 211, 0.148);
         h1{
             font-size: 40px;
         }
@@ -226,18 +282,24 @@ footer{
         .container-cm{
             display: flex;
             flex-direction: row;
-            gap: 80px;
+            gap: 40px;
             text-align: center;
-            }
             .nuestra-historia{
-                width: 50%;
+                width: 512px;
+                height: 800px;
             }
-        }
-        .sec-ubi iframe{
-            height: 875px;
-            width: 400px;
+            .sec-ubi{
+                height: 800px;
+                width: 512px;
+                align-items: center;
+                iframe{
+                    height: 750px;
+                    width: 482px;
+                }
+            }
         }
     }
+}
 @media(min-width: 1440px){
     header{
         height: 110px;
@@ -270,7 +332,7 @@ footer{
         }
     }
     main{
-        background-color: lightgrey;
+        background-color: rgba(211, 211, 211, 0.148);
         display: flex;
         h1{
             font-size: 50px;
@@ -285,31 +347,45 @@ footer{
             padding-left: 10px;
             padding-right: 10px;
         }
-        .nuestra-historia{
-            width: 50;
+        .container-cm{
+            .nuestra-historia{
+            width: 720px;
             text-align: start;
             h3{
                 text-align: center;
             }
-        }
-        .sec-ubi{
-            width: 550px;
-            padding-left: 0;
-            iframe{
-                width: 550px;
-                height: 550px;
+            }
+            .sec-ubi{
+                height: 800px;
+                width: 720px;
+                padding-left: 0;
+                iframe{
+                    width: 650px;
+                    height: 750px;
+                }
             }
         }
+        
         .boton-i{
             border-radius: 300px;
-        }
+        }   
     }
     footer{
         justify-content: space-between;
         .sect1{
             height: 30px;
             width: 80px;
-            border-color: black;
+            text-align: center;
+        }
+        .sect2{
+            height: 30px;
+            width: 120px;
+            text-align: center;
+        }
+        .sect3{
+            height: 30px;
+            width: 120px;
+            text-align: center;
         }
     }
 }

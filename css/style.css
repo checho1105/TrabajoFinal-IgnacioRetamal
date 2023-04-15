@@ -50,6 +50,7 @@ main {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
+  background-color: rgba(211, 211, 211, 0.148);
 }
 main h1 {
   text-align: center;
@@ -96,6 +97,42 @@ footer {
   padding: 10px;
 }
 
+@media (min-width: 375px) {
+  main .container-cm {
+    height: 800px;
+  }
+  main .container-cm .sec-ubi {
+    height: 320px;
+    width: 375px;
+    align-items: center;
+  }
+  main .container-cm .sec-ubi iframe {
+    height: 320px;
+    width: 365px;
+  }
+}
+@media (min-width: 425px) {
+  main .container-cm .sec-ubi {
+    height: 320px;
+    width: 425px;
+    align-items: center;
+  }
+  main .container-cm .sec-ubi iframe {
+    height: 320px;
+    width: 415px;
+  }
+}
+@media (min-width: 620px) {
+  main .container-cm .sec-ubi {
+    height: 400px;
+    width: 620px;
+    align-items: center;
+  }
+  main .container-cm .sec-ubi iframe {
+    height: 320px;
+    width: 620px;
+  }
+}
 @media (min-width: 768px) {
   header {
     height: 110px;
@@ -122,6 +159,9 @@ footer {
   .navbar a {
     padding: 12px;
     margin-top: 5px;
+  }
+  main {
+    background-color: rgba(211, 211, 211, 0.148);
   }
   main h1 {
     font-size: 40px;
@@ -151,17 +191,20 @@ footer {
   main .container-cm {
     display: flex;
     flex-direction: row;
-    gap: 80px;
     text-align: center;
   }
-  main .nuestra-historia {
-    width: 50%;
+  main .container-cm .nuestra-historia {
+    width: 380px;
   }
-  .sec-ubi iframe {
-    height: 875px;
-    width: 400px;
+  main .container-cm .sec-ubi {
+    height: 800px;
+    width: 380px;
   }
-  .pcm {
+  main .container-cm .sec-ubi iframe {
+    height: 750px;
+    width: 370px;
+  }
+  main .container-cm .pcm {
     display: none;
   }
   footer {
@@ -189,6 +232,9 @@ footer {
     padding-top: 18px;
     padding-right: 15px;
     font-size: 40px;
+  }
+  main {
+    background-color: rgba(211, 211, 211, 0.148);
   }
   main h1 {
     font-size: 40px;
@@ -218,15 +264,21 @@ footer {
   main .container-cm {
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 40px;
     text-align: center;
   }
-  main .nuestra-historia {
-    width: 50%;
+  main .container-cm .nuestra-historia {
+    width: 512px;
+    height: 800px;
   }
-  .sec-ubi iframe {
-    height: 875px;
-    width: 400px;
+  main .container-cm .sec-ubi {
+    height: 800px;
+    width: 512px;
+    align-items: center;
+  }
+  main .container-cm .sec-ubi iframe {
+    height: 750px;
+    width: 482px;
   }
 }
 @media (min-width: 1440px) {
@@ -261,7 +313,7 @@ footer {
     font-size: 30px;
   }
   main {
-    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, 0.148);
     display: flex;
   }
   main h1 {
@@ -277,26 +329,42 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
   }
-  main .nuestra-historia {
-    width: 50;
+  main .container-cm .nuestra-historia {
+    width: 720px;
     text-align: start;
   }
-  main .nuestra-historia h3 {
+  main .container-cm .nuestra-historia h3 {
     text-align: center;
   }
-  main .sec-ubi {
-    width: 550px;
+  main .container-cm .sec-ubi {
+    height: 800px;
+    width: 720px;
     padding-left: 0;
   }
-  main .sec-ubi iframe {
-    width: 550px;
-    height: 550px;
+  main .container-cm .sec-ubi iframe {
+    width: 650px;
+    height: 750px;
   }
   main .boton-i {
     border-radius: 300px;
   }
   footer {
     justify-content: space-between;
+  }
+  footer .sect1 {
+    height: 30px;
+    width: 80px;
+    text-align: center;
+  }
+  footer .sect2 {
+    height: 30px;
+    width: 120px;
+    text-align: center;
+  }
+  footer .sect3 {
+    height: 30px;
+    width: 120px;
+    text-align: center;
   }
 }
 
