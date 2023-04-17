@@ -347,6 +347,9 @@ footer{
             padding-left: 10px;
             padding-right: 10px;
         }
+        .button-main{
+            margin: 60px;
+        }
         .container-cm{
             .nuestra-historia{
             width: 720px;
@@ -388,4 +391,66 @@ footer{
             text-align: center;
         }
     }
+}
+
+@media(min-width: 1920px){
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        h1{
+            font-size: 70px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+        .p-i{
+            p{
+                font-size: 25px;
+            }
+        }
+        .button-main{
+            margin: 105px;
+            .boton-i{
+                border-radius: 300px;
+                width: 300px;
+                padding: 10px;
+            }
+        }
+        .card-ropa{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .container-cm{
+            display: flex;
+            flex-direction: row;
+            gap: 120px;
+            height: 850px;
+            .nuestra-historia{
+                width: 50%;
+                h3{
+                    font-size: 45px;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                }
+            }
+            .sec-ubi{
+                height: 900px;
+                width: 50%;
+                h3{
+                    font-size: 45px;
+                }
+                iframe{
+                    height: 750px;
+                    width: 90%;
+                }
+            }
+        }
+        
+    }
+
 }

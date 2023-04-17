@@ -329,6 +329,9 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
   }
+  main .button-main {
+    margin: 60px;
+  }
   main .container-cm .nuestra-historia {
     width: 720px;
     text-align: start;
@@ -365,6 +368,63 @@ footer {
     height: 30px;
     width: 120px;
     text-align: center;
+  }
+}
+@media (min-width: 1920px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  main {
+    display: flex;
+  }
+  main h1 {
+    font-size: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  main .p-i p {
+    font-size: 25px;
+  }
+  main .button-main {
+    margin: 105px;
+  }
+  main .button-main .boton-i {
+    border-radius: 300px;
+    width: 300px;
+    padding: 10px;
+  }
+  main .card-ropa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  main .container-cm {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    height: 850px;
+  }
+  main .container-cm .nuestra-historia {
+    width: 50%;
+  }
+  main .container-cm .nuestra-historia h3 {
+    font-size: 45px;
+  }
+  main .container-cm .nuestra-historia p {
+    font-size: 25px;
+    text-align: center;
+  }
+  main .container-cm .sec-ubi {
+    height: 900px;
+    width: 50%;
+  }
+  main .container-cm .sec-ubi h3 {
+    font-size: 45px;
+  }
+  main .container-cm .sec-ubi iframe {
+    height: 750px;
+    width: 90%;
   }
 }
 
