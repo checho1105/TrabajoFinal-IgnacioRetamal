@@ -426,6 +426,59 @@ footer {
     height: 750px;
     width: 90%;
   }
+  main .h2m {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-top: 60px;
+  }
+  main .rop-m {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+  }
+  main .rop-m p {
+    margin: 20px;
+  }
+  main .rop-m .bot-m {
+    border-radius: 300px;
+    width: 100px;
+  }
+  main .rop-m .bot-m a {
+    text-decoration: none;
+    color: black;
+  }
+  main .rop-m .img-m {
+    width: 400px;
+  }
+  main .rop-m .img-m img {
+    width: 400px;
+    height: 200px;
+  }
+  main .rop-m .img-m2 {
+    width: 400px;
+  }
+  main .rop-m .img-m2 img {
+    width: 400px;
+    height: 200px;
+  }
+  main .rop-m .img-m3 {
+    width: 400px;
+  }
+  main .rop-m .img-m3 img {
+    width: 400px;
+    height: 200px;
+  }
+  main .rop-m .img-m4 {
+    width: 400px;
+  }
+  main .rop-m .img-m4 img {
+    width: 400px;
+    height: 200px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
