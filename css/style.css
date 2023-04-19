@@ -299,6 +299,9 @@ footer {
     width: 150px;
     align-items: center;
   }
+  header .rm a {
+    font-size: 28px;
+  }
   .navbar {
     display: flex;
     flex-direction: row;
@@ -351,6 +354,27 @@ footer {
   main .boton-i {
     border-radius: 300px;
   }
+  main .h2m {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+  main .rop-m {
+    display: grid;
+    grid-template-areas: "d1 d2" "d3 d4";
+  }
+  main .rop-m .img-m {
+    grid-area: d1;
+  }
+  main .rop-m .img-m2 {
+    grid-area: d2;
+  }
+  main .rop-m .img-m3 {
+    grid-area: d3;
+  }
+  main .rop-m .img-m4 {
+    grid-area: d4;
+  }
   footer {
     justify-content: space-between;
   }
@@ -375,6 +399,20 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .navbar ul .rm {
+    padding: 0;
+  }
+  .navbar ul .rm a {
+    font-size: 28px;
   }
   main {
     display: flex;
@@ -458,12 +496,32 @@ footer {
     width: 400px;
     height: 200px;
   }
+  main .rop-m .img-m p {
+    font-size: 30px;
+  }
+  main .rop-m .img-m button {
+    height: 80px;
+    width: 250px;
+  }
+  main .rop-m .img-m button a {
+    font-size: 30px;
+  }
   main .rop-m .img-m2 {
     width: 400px;
   }
   main .rop-m .img-m2 img {
     width: 400px;
     height: 200px;
+  }
+  main .rop-m .img-m2 p {
+    font-size: 30px;
+  }
+  main .rop-m .img-m2 button {
+    height: 80px;
+    width: 250px;
+  }
+  main .rop-m .img-m2 button a {
+    font-size: 30px;
   }
   main .rop-m .img-m3 {
     width: 400px;
@@ -472,12 +530,37 @@ footer {
     width: 400px;
     height: 200px;
   }
+  main .rop-m .img-m3 p {
+    font-size: 30px;
+  }
+  main .rop-m .img-m3 button {
+    height: 80px;
+    width: 250px;
+  }
+  main .rop-m .img-m3 button a {
+    font-size: 30px;
+  }
   main .rop-m .img-m4 {
     width: 400px;
   }
   main .rop-m .img-m4 img {
     width: 400px;
     height: 200px;
+  }
+  main .rop-m .img-m4 p {
+    font-size: 30px;
+  }
+  main .rop-m .img-m4 button {
+    height: 80px;
+    width: 250px;
+  }
+  main .rop-m .img-m4 button a {
+    font-size: 30px;
+  }
+  main .rop-m .cmm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
   }
 }
 

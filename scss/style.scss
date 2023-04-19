@@ -317,6 +317,11 @@ footer{
             width: 150px;
             align-items: center;
         }
+        .rm{
+            a{
+                font-size: 28px;
+            }
+        }
     }
     .navbar{
         display: flex;
@@ -368,10 +373,33 @@ footer{
                 }
             }
         }
-        
         .boton-i{
             border-radius: 300px;
-        }   
+        }
+        .h2m{
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 40px;
+        }
+        .rop-m{
+            display: grid;
+            grid-template-areas: 
+            "d1 d2"
+            "d3 d4"
+            ;
+            .img-m{
+                grid-area: d1;
+            }
+            .img-m2{
+                grid-area: d2;
+            }
+            .img-m3{
+                grid-area: d3;
+            }
+            .img-m4{
+                grid-area: d4;
+            }
+        }
     }
     footer{
         justify-content: space-between;
@@ -398,6 +426,20 @@ footer{
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        ul{
+            display: flex;
+            .rm{
+                padding: 0;
+                a{
+                    font-size: 28px;
+                }
+            }
+        }
     }
     main{
         display: flex;
@@ -480,12 +522,32 @@ footer{
                     width: 400px;
                     height: 200px;
                 }
+                p{
+                    font-size: 30px;
+                }
+                button{
+                    height: 80px;
+                    width: 250px;
+                    a{
+                        font-size: 30px;
+                    }
+                }
             }
             .img-m2{
                 width: 400px;
                 img{
                     width: 400px;
                     height: 200px;
+                }
+                p{
+                    font-size: 30px;
+                }
+                button{
+                    height: 80px;
+                    width: 250px;
+                    a{
+                        font-size: 30px;
+                    }
                 }
             }
             .img-m3{
@@ -494,6 +556,16 @@ footer{
                     width: 400px;
                     height: 200px;
                 }
+                p{
+                    font-size: 30px;
+                }
+                button{
+                    height: 80px;
+                    width: 250px;
+                    a{
+                        font-size: 30px;
+                    }
+                }
             }
             .img-m4{
                 width: 400px;
@@ -501,7 +573,22 @@ footer{
                     width: 400px;
                     height: 200px;
                 }
+                p{
+                    font-size: 30px;
+                }
+                button{
+                    height: 80px;
+                    width: 250px;
+                    a{
+                        font-size: 30px;
+                    }
+                }
             }
+        .cmm{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
         }
     }
 
