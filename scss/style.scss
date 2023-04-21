@@ -102,6 +102,17 @@ footer{
 
 @media(min-width: 375px){
     main{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+        padding-right: 5px;
+        h1{
+            text-transform: capitalize;
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
         .container-cm{
             height: 800px;
             .sec-ubi{
@@ -111,6 +122,102 @@ footer{
                 iframe{
                     height: 320px;
                     width: 365px;
+                }
+            }
+        }
+        .p-i{
+            text-align: center;
+        }
+        .img-index{
+            display: none;
+        }
+        .button-main{
+            .boton-i{
+                border-radius: 300px;
+                width: 150px;
+                height: 50px;
+            }
+        }
+        .h2m{
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 30px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .rop-m{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 40px;
+            .img-m{
+                width: 350px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    width: 150px;
+                    height: 50px;
+                }
+                img{
+                    width: 350px;
+                    height: 250px;
+                }
+            }
+            .img-m2{
+                width: 350px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    width: 150px;
+                    height: 50px;
+                }
+                img{
+                    width: 350px;
+                    height: 250px;
+                }
+            }
+            .img-m3{
+                width: 350px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    width: 150px;
+                    height: 50px;
+                }
+                img{
+                    width: 350px;
+                    height: 250px;
+                }
+            }
+            .img-m4{
+                width: 350px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    width: 150px;
+                    height: 50px;
+                }
+                img{
+                    width: 350px;
+                    height: 250px;
                 }
             }
         }
