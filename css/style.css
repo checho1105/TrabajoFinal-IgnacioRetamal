@@ -121,6 +121,20 @@ footer {
     height: 320px;
     width: 415px;
   }
+  main .p-i {
+    text-align: center;
+  }
+  main .button-main {
+    margin-top: 50px;
+  }
+  main .button-main .boton-i {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .img-index {
+    display: none;
+  }
 }
 @media (min-width: 620px) {
   main .container-cm .sec-ubi {
@@ -131,6 +145,92 @@ footer {
   main .container-cm .sec-ubi iframe {
     height: 320px;
     width: 620px;
+  }
+  main .h2m {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main .rop-m {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  main .rop-m .img-m {
+    width: 500px;
+  }
+  main .rop-m .img-m img {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m .bot-m {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .rop-m .img-m a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  main .rop-m .img-m2 {
+    width: 500px;
+  }
+  main .rop-m .img-m2 img {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m2 .bot-m {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .rop-m .img-m2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  main .rop-m .img-m3 {
+    width: 500px;
+  }
+  main .rop-m .img-m3 img {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m3 .bot-m {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .rop-m .img-m3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  main .rop-m .img-m4 {
+    width: 500px;
+  }
+  main .rop-m .img-m4 img {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m4 .bot-m {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .rop-m .img-m4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  footer {
+    justify-content: space-between;
   }
 }
 @media (min-width: 768px) {

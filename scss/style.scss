@@ -130,6 +130,19 @@ footer{
                 }
             }
         }
+        .p-i{
+            text-align: center;
+        }
+        .button-main{
+            .boton-i{
+                border-radius: 300px;
+                width: 150px;
+                height: 50px;
+            }
+        }
+        .img-index{
+            display: none;
+        }
     }
 }
 
@@ -146,6 +159,92 @@ footer{
                 }
             }
         }
+        .h2m{
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 40px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .rop-m{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 40px;
+            .img-m{
+                width: 500px;
+                img{
+                    width: 500px;
+                    height: 300px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    width: 150px;
+                    height: 50px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
+            }
+            .img-m2{
+                width: 500px;
+                img{
+                    width: 500px;
+                    height: 300px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    width: 150px;
+                    height: 50px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
+            }
+            .img-m3{
+                width: 500px;
+                img{
+                    width: 500px;
+                    height: 300px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    width: 150px;
+                    height: 50px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
+            }
+            .img-m4{
+                width: 500px;
+                img{
+                    width: 500px;
+                    height: 300px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    width: 150px;
+                    height: 50px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    footer{
+        justify-content: space-between;
     }
 }
 
