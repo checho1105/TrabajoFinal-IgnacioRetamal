@@ -380,24 +380,90 @@ footer{
             text-align: center;
             text-transform: capitalize;
             font-size: 40px;
+            margin-top: 50px;
+            margin-bottom: 100px;
         }
         .rop-m{
-            display: grid;
-            grid-template-areas: 
-            "d1 d2"
-            "d3 d4"
-            ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 40px;
             .img-m{
-                grid-area: d1;
+                width: 1000px;
+                text-align: center;
+                font-size: 30px;
+                .img-mar{
+                    width: 500px;
+                    height: 300px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    height: 50px;
+                    width: 200px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
             }
             .img-m2{
-                grid-area: d2;
+                width: 1000px;
+                text-align: center;
+                font-size: 30px;
+                .img-mar{
+                    width: 500px;
+                    height: 300px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    height: 50px;
+                    width: 200px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
             }
             .img-m3{
-                grid-area: d3;
+                width: 1000px;
+                text-align: center;
+                font-size: 30px;
+                .img-mar{
+                    width: 500px;
+                    height: 300px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    height: 50px;
+                    width: 200px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
             }
             .img-m4{
-                grid-area: d4;
+                width: 1000px;
+                text-align: center;
+                font-size: 30px;
+                .img-mar{
+                    width: 500px;
+                    height: 300px;
+                }
+                .bot-m{
+                    border-radius: 300px;
+                    height: 50px;
+                    width: 200px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                }
             }
         }
     }

@@ -358,22 +358,91 @@ footer {
     text-align: center;
     text-transform: capitalize;
     font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
   main .rop-m {
-    display: grid;
-    grid-template-areas: "d1 d2" "d3 d4";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
   }
   main .rop-m .img-m {
-    grid-area: d1;
+    width: 1000px;
+    text-align: center;
+    font-size: 30px;
+  }
+  main .rop-m .img-m .img-mar {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m .bot-m {
+    border-radius: 300px;
+    height: 50px;
+    width: 200px;
+  }
+  main .rop-m .img-m a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
   }
   main .rop-m .img-m2 {
-    grid-area: d2;
+    width: 1000px;
+    text-align: center;
+    font-size: 30px;
+  }
+  main .rop-m .img-m2 .img-mar {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m2 .bot-m {
+    border-radius: 300px;
+    height: 50px;
+    width: 200px;
+  }
+  main .rop-m .img-m2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
   }
   main .rop-m .img-m3 {
-    grid-area: d3;
+    width: 1000px;
+    text-align: center;
+    font-size: 30px;
+  }
+  main .rop-m .img-m3 .img-mar {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m3 .bot-m {
+    border-radius: 300px;
+    height: 50px;
+    width: 200px;
+  }
+  main .rop-m .img-m3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
   }
   main .rop-m .img-m4 {
-    grid-area: d4;
+    width: 1000px;
+    text-align: center;
+    font-size: 30px;
+  }
+  main .rop-m .img-m4 .img-mar {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m4 .bot-m {
+    border-radius: 300px;
+    height: 50px;
+    width: 200px;
+  }
+  main .rop-m .img-m4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
   }
   footer {
     justify-content: space-between;
