@@ -215,7 +215,6 @@ footer {
 @media (min-width: 1024px) {
   header {
     height: 110px;
-    gap: 80px;
   }
   header .ing-index {
     font-size: 30px;
@@ -223,7 +222,7 @@ footer {
   .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
   .navbar ul {
     display: flex;
@@ -233,8 +232,16 @@ footer {
     padding-right: 15px;
     font-size: 40px;
   }
+  .navbar .a-index {
+    width: 120px;
+  }
+  .navbar .img-t {
+    width: 120px;
+  }
   main {
     background-color: rgba(211, 211, 211, 0.148);
+    display: flex;
+    text-align: center;
   }
   main h1 {
     font-size: 40px;
@@ -246,6 +253,7 @@ footer {
     display: flex;
   }
   main .img-index {
+    display: none;
     text-align: center;
     margin: 60px;
   }
@@ -255,6 +263,9 @@ footer {
   main .button-main a {
     padding: 25px;
     font-size: 20px;
+  }
+  main .button-main .boton-i {
+    border-radius: 300px;
   }
   main .card-ropa {
     display: grid;
@@ -279,6 +290,95 @@ footer {
   main .container-cm .sec-ubi iframe {
     height: 750px;
     width: 482px;
+  }
+  main .h2m {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+  main .rop-m {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+  main .rop-m .img-m {
+    width: 700px;
+    font: 25px;
+  }
+  main .rop-m .img-m .img-mar {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m .bot-m {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .rop-m .img-m a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  main .rop-m .img-m2 {
+    width: 700px;
+    font: 25px;
+  }
+  main .rop-m .img-m2 .img-mar {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m2 .bot-m {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .rop-m .img-m2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  main .rop-m .img-m3 {
+    width: 700px;
+    font: 25px;
+  }
+  main .rop-m .img-m3 .img-mar {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m3 .bot-m {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .rop-m .img-m3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  main .rop-m .img-m4 {
+    width: 700px;
+    font: 25px;
+  }
+  main .rop-m .img-m4 .img-mar {
+    width: 500px;
+    height: 300px;
+  }
+  main .rop-m .img-m4 .bot-m {
+    border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .rop-m .img-m4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  footer {
+    justify-content: space-between;
   }
 }
 @media (min-width: 1440px) {
