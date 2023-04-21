@@ -912,8 +912,14 @@ footer {
     width: 650px;
     height: 750px;
   }
-  main .boton-i {
+  main .button-main .boton-i {
     border-radius: 300px;
+    width: 150px;
+    height: 50px;
+  }
+  main .button-main a {
+    width: 150px;
+    height: 50px;
   }
   main .h2m {
     text-align: center;

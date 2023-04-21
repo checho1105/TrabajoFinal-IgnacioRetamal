@@ -934,8 +934,17 @@ footer{
                 }
             }
         }
-        .boton-i{
-            border-radius: 300px;
+        
+        .button-main{
+            .boton-i{
+                border-radius: 300px;
+                width: 150px;
+                height: 50px;
+            }
+            a{
+                width: 150px;
+                height: 50px;
+            }
         }
         .h2m{
             text-align: center;
