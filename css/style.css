@@ -51,6 +51,7 @@ main {
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   background-color: rgba(211, 211, 211, 0.148);
+  text-align: center;
 }
 main h1 {
   text-align: center;
@@ -72,6 +73,11 @@ main .button-main a {
 main .button-main a:hover {
   color: grey;
 }
+main .button-main .boton-i {
+  border-radius: 300px;
+  width: 150px;
+  height: 50px;
+}
 main .container-cm {
   display: flex;
   flex-direction: column;
@@ -85,6 +91,89 @@ main .sec-ubi {
 }
 main .pcm {
   display: none;
+}
+main .h2m {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main .rop-m {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+main .rop-m .img-m {
+  width: 300px;
+}
+main .rop-m .img-m a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+main .rop-m .img-m img {
+  width: 300px;
+  height: 150px;
+}
+main .rop-m .img-m .bot-m {
+  border-radius: 300px;
+  width: 150px;
+  height: 50px;
+}
+main .rop-m .img-m2 {
+  width: 300px;
+}
+main .rop-m .img-m2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+main .rop-m .img-m2 img {
+  width: 300px;
+  height: 150px;
+}
+main .rop-m .img-m2 .bot-m {
+  border-radius: 300px;
+  width: 150px;
+  height: 50px;
+}
+main .rop-m .img-m3 {
+  width: 300px;
+}
+main .rop-m .img-m3 a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+main .rop-m .img-m3 img {
+  width: 300px;
+  height: 150px;
+}
+main .rop-m .img-m3 .bot-m {
+  border-radius: 300px;
+  width: 150px;
+  height: 50px;
+}
+main .rop-m .img-m4 {
+  width: 300px;
+}
+main .rop-m .img-m4 a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+main .rop-m .img-m4 img {
+  width: 300px;
+  height: 150px;
+}
+main .rop-m .img-m4 .bot-m {
+  border-radius: 300px;
+  width: 150px;
+  height: 50px;
 }
 
 footer {
