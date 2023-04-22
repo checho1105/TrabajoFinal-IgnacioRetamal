@@ -84,12 +84,16 @@ main{
         display: flex;
         flex-direction: column;
         text-align: center;
+        height: 1700px;
     }
     .icm{
         width: 300px;
     }
     .sec-ubi{
         width: 319px;
+        iframe{
+            height: 500px;
+        }
     }
     .pcm{
         display: none;
@@ -203,13 +207,13 @@ footer{
             font-size: 20px;
         }
         .container-cm{
-            height: 800px;
+            height: 2000px;
             .sec-ubi{
                 height: 320px;
                 width: 375px;
                 align-items: center;
                 iframe{
-                    height: 320px;
+                    height: 450px;
                     width: 365px;
                 }
             }
@@ -316,12 +320,13 @@ footer{
 @media(min-width: 425px){
     main{
         .container-cm{
+            height: 1800px;
             .sec-ubi{
                 height: 320px;
                 width: 425px;
                 align-items: center;
                 iframe{
-                    height: 320px;
+                    height: 400px;
                     width: 415px;
                 }
             }
@@ -425,13 +430,17 @@ footer{
     }
 @media(min-width: 620px){
     main{
+        height: 1500px;
         .container-cm{
+            display: flex;
+            flex-direction: column;
+            height: 2700px;
             .sec-ubi{
                 height: 400px;
                 width: 620px;
                 align-items: center;
                 iframe{
-                    height: 320px;
+                    height: 420px;
                     width: 620px;
                 }
             }
@@ -587,6 +596,7 @@ footer{
             display: flex;
             flex-direction: row;
             text-align: center;
+            height: 1400px;
             .nuestra-historia{
                 width: 380px;
             }
@@ -756,6 +766,7 @@ footer{
             flex-direction: row;
             gap: 40px;
             text-align: center;
+            height: 1150px;
             .nuestra-historia{
                 width: 512px;
                 height: 800px;
@@ -944,6 +955,7 @@ footer{
             a{
                 width: 150px;
                 height: 50px;
+                padding: 0;
             }
         }
         .h2m{
@@ -1105,7 +1117,7 @@ footer{
             display: flex;
             flex-direction: row;
             gap: 120px;
-            height: 850px;
+            height: 1150px;
             .nuestra-historia{
                 width: 50%;
                 h3{
@@ -1123,7 +1135,7 @@ footer{
                     font-size: 45px;
                 }
                 iframe{
-                    height: 750px;
+                    height: 950px;
                     width: 90%;
                 }
             }

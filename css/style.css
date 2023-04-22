@@ -82,12 +82,16 @@ main .container-cm {
   display: flex;
   flex-direction: column;
   text-align: center;
+  height: 1700px;
 }
 main .icm {
   width: 300px;
 }
 main .sec-ubi {
   width: 319px;
+}
+main .sec-ubi iframe {
+  height: 500px;
 }
 main .pcm {
   display: none;
@@ -201,7 +205,7 @@ footer {
     font-size: 20px;
   }
   main .container-cm {
-    height: 800px;
+    height: 2000px;
   }
   main .container-cm .sec-ubi {
     height: 320px;
@@ -209,7 +213,7 @@ footer {
     align-items: center;
   }
   main .container-cm .sec-ubi iframe {
-    height: 320px;
+    height: 450px;
     width: 365px;
   }
   main .p-i {
@@ -308,13 +312,16 @@ footer {
   }
 }
 @media (min-width: 425px) {
+  main .container-cm {
+    height: 1800px;
+  }
   main .container-cm .sec-ubi {
     height: 320px;
     width: 425px;
     align-items: center;
   }
   main .container-cm .sec-ubi iframe {
-    height: 320px;
+    height: 400px;
     width: 415px;
   }
   .p-i {
@@ -412,13 +419,21 @@ footer {
   }
 }
 @media (min-width: 620px) {
+  main {
+    height: 1500px;
+  }
+  main .container-cm {
+    display: flex;
+    flex-direction: column;
+    height: 2700px;
+  }
   main .container-cm .sec-ubi {
     height: 400px;
     width: 620px;
     align-items: center;
   }
   main .container-cm .sec-ubi iframe {
-    height: 320px;
+    height: 420px;
     width: 620px;
   }
   main .h2m {
@@ -570,6 +585,7 @@ footer {
     display: flex;
     flex-direction: row;
     text-align: center;
+    height: 1400px;
   }
   main .container-cm .nuestra-historia {
     width: 380px;
@@ -738,6 +754,7 @@ footer {
     flex-direction: row;
     gap: 40px;
     text-align: center;
+    height: 1150px;
   }
   main .container-cm .nuestra-historia {
     width: 512px;
@@ -920,6 +937,7 @@ footer {
   main .button-main a {
     width: 150px;
     height: 50px;
+    padding: 0;
   }
   main .h2m {
     text-align: center;
@@ -1077,7 +1095,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 120px;
-    height: 850px;
+    height: 1150px;
   }
   main .container-cm .nuestra-historia {
     width: 50%;
@@ -1097,7 +1115,7 @@ footer {
     font-size: 45px;
   }
   main .container-cm .sec-ubi iframe {
-    height: 750px;
+    height: 950px;
     width: 90%;
   }
   main .h2m {
