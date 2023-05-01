@@ -575,6 +575,8 @@ footer {
   }
   main .button-main .boton-i {
     border-radius: 300px;
+    width: 200px;
+    height: 50px;
   }
   main .card-ropa {
     display: grid;
