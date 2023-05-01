@@ -225,6 +225,7 @@ footer{
             display: none;
         }
         .button-main{
+            margin-bottom: 60px;
             .boton-i{
                 border-radius: 300px;
                 width: 150px;
@@ -331,11 +332,12 @@ footer{
                 }
             }
         }
-    }
+    
         .p-i{
             text-align: center;
         }
         .button-main{
+            margin: 80px;
             .boton-i{
                 border-radius: 300px;
                 width: 150px;
@@ -428,6 +430,7 @@ footer{
             }
         }
     }
+}
 @media(min-width: 620px){
     main{
         height: 1500px;
@@ -574,8 +577,6 @@ footer{
         }
         .img-index{
             display: none;
-            text-align: center;
-            margin: 60px;
         }
         .button-main{
             padding: 50px;
