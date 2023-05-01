@@ -566,6 +566,7 @@ footer{
         background-color: rgba(211, 211, 211, 0.148);
         text-align: center;
         display: flex;
+        height: auto;
         h1{
             font-size: 40px;
         }
@@ -602,6 +603,7 @@ footer{
             height: 1400px;
             .nuestra-historia{
                 width: 380px;
+                height: 800px;
             }
             .sec-ubi{
                 height: 800px;
@@ -698,7 +700,6 @@ footer{
             }
         }
         }
-        
     footer{
         justify-content: space-between  ;
         font-size: 25px;
@@ -735,6 +736,7 @@ footer{
         background-color: rgba(211, 211, 211, 0.148);
         display: flex;
         text-align: center;
+        height: auto;
         h1{
             font-size: 40px;
         }
@@ -931,9 +933,13 @@ footer{
             margin: 60px;
         }
         .container-cm{
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            margin-bottom: 40px;
             .nuestra-historia{
             width: 720px;
-            text-align: start;
+            text-align: center;
             h3{
                 text-align: center;
             }
@@ -1151,7 +1157,7 @@ footer{
         }
         .rop-m{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             gap: 80px;
             padding: 40px;
             align-items: center;
@@ -1168,9 +1174,9 @@ footer{
                 }
             }
             .img-m{
-                width: 400px;
+                width: 1200px;
                 img{
-                    width: 400px;
+                    width: 1200px;
                     height: 200px;
                 }
                 p{
@@ -1185,9 +1191,9 @@ footer{
                 }
             }
             .img-m2{
-                width: 400px;
+                width: 1200px;
                 img{
-                    width: 400px;
+                    width: 1200px;
                     height: 200px;
                 }
                 p{
@@ -1202,9 +1208,9 @@ footer{
                 }
             }
             .img-m3{
-                width: 400px;
+                width: 1200px;
                 img{
-                    width: 400px;
+                    width: 1200px;
                     height: 200px;
                 }
                 p{
@@ -1219,9 +1225,9 @@ footer{
                 }
             }
             .img-m4{
-                width: 400px;
+                width: 1200px;
                 img{
-                    width: 400px;
+                    width: 1200px;
                     height: 200px;
                 }
                 p{

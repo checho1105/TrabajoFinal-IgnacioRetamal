@@ -557,6 +557,7 @@ footer {
     background-color: rgba(211, 211, 211, 0.148);
     text-align: center;
     display: flex;
+    height: auto;
   }
   main h1 {
     font-size: 40px;
@@ -595,6 +596,7 @@ footer {
   }
   main .container-cm .nuestra-historia {
     width: 380px;
+    height: 800px;
   }
   main .container-cm .sec-ubi {
     height: 800px;
@@ -725,6 +727,7 @@ footer {
     background-color: rgba(211, 211, 211, 0.148);
     display: flex;
     text-align: center;
+    height: auto;
   }
   main h1 {
     font-size: 40px;
@@ -919,9 +922,15 @@ footer {
   main .button-main {
     margin: 60px;
   }
+  main .container-cm {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 40px;
+  }
   main .container-cm .nuestra-historia {
     width: 720px;
-    text-align: start;
+    text-align: center;
   }
   main .container-cm .nuestra-historia h3 {
     text-align: center;
@@ -1132,7 +1141,7 @@ footer {
   }
   main .rop-m {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 80px;
     padding: 40px;
     align-items: center;
@@ -1150,10 +1159,10 @@ footer {
     color: black;
   }
   main .rop-m .img-m {
-    width: 400px;
+    width: 1200px;
   }
   main .rop-m .img-m img {
-    width: 400px;
+    width: 1200px;
     height: 200px;
   }
   main .rop-m .img-m p {
@@ -1167,10 +1176,10 @@ footer {
     font-size: 30px;
   }
   main .rop-m .img-m2 {
-    width: 400px;
+    width: 1200px;
   }
   main .rop-m .img-m2 img {
-    width: 400px;
+    width: 1200px;
     height: 200px;
   }
   main .rop-m .img-m2 p {
@@ -1184,10 +1193,10 @@ footer {
     font-size: 30px;
   }
   main .rop-m .img-m3 {
-    width: 400px;
+    width: 1200px;
   }
   main .rop-m .img-m3 img {
-    width: 400px;
+    width: 1200px;
     height: 200px;
   }
   main .rop-m .img-m3 p {
@@ -1201,10 +1210,10 @@ footer {
     font-size: 30px;
   }
   main .rop-m .img-m4 {
-    width: 400px;
+    width: 1200px;
   }
   main .rop-m .img-m4 img {
-    width: 400px;
+    width: 1200px;
     height: 200px;
   }
   main .rop-m .img-m4 p {
